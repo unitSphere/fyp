@@ -1,6 +1,6 @@
 const express = require('express');
 
-const VendorCtrl = require('../../controllers/VendorCtrl');
+const VendorCtrl = require('../../controllers/vendorctrl');
 const passport = require('passport');
 const router = express.Router();
 

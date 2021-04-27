@@ -1,3 +1,7 @@
+const {
+    applyValidationRules,
+    validate
+} = require('../../validation/inputValidator');
 const express = require('express');
 const router = express.Router();
 const passport = require('passport');

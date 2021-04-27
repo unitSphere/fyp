@@ -16,6 +16,8 @@ connectDB();
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
+// app.use(express.static('../client/build'));
+
 // setting header information
 app.use(function (req, res, next) {
 
